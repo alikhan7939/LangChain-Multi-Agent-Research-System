@@ -1,0 +1,27 @@
+[[source]]
+url = "https://package-mirror.liara.ir/repository/pypi/simple"
+verify_ssl = true
+name = "pip_conf_index_:env:"
+
+[packages]
+langchain = "*"
+langchain-openai = "*"
+langchain-community = "*"
+langchain-core = "*"
+langchain-text-splitters = "*"
+langchain-classic = "*"
+langchain-groq = "*"
+streamlit = "*"
+tavily-python = "*"
+beautifulsoup4 = "*"
+readability-lxml = "*"
+trafilatura = "*"
+requests = "*"
+lxml = "*"
+python-dotenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.14"
+python_full_version = "3.14.4"
